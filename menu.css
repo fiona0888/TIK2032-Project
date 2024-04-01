@@ -47,10 +47,10 @@ header {
 
 main {
     background-image: url('background.jpg');
-   background-size: 100% 100%;
+    background-size: cover; /* Atur ukuran gambar agar menutupi seluruh area main */
     background-position: center;
     background-repeat: no-repeat; /* Mencegah gambar diulang */
-    height: 100vh;
+    height: 100vh; /* Mengatur tinggi elemen main agar sama dengan tinggi layar */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Membuat grid layout responsif */
     gap: 20px; /* Menambahkan jarak antar elemen */
-    padding: 10px;
+    padding: 0; /* Menghapus padding untuk memastikan konten memenuhi lebar elemen */
 }
 
 .blog-content article {
@@ -97,6 +97,7 @@ main {
     text-align: center; /* Mengatur teks menjadi rata tengah */
     max-width: 600px; /* Mengatur lebar maksimum konten */
     margin: 0 auto; /* Mengatur konten agar berada di tengah halaman */
+    height: 100vh; /* Mengatur tinggi elemen agar sama dengan tinggi layar */
 }
 
 .contact-content p {
