@@ -65,3 +65,29 @@ main {
     background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
     border-radius: 10px; /* Mengatur sudut border */
 }
+
+.blog-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Membuat grid layout responsif */
+    gap: 20px; /* Menambahkan jarak antar elemen */
+    padding: 20px;
+}
+
+.blog-content article {
+    background-color: #f9f9f9; /* Warna latar belakang */
+    border-radius: 10px; /* Sudut border */
+    padding: 20px; /* Padding untuk konten */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.blog-content article h2 {
+    font-size: 22px; /* Ukuran huruf untuk judul artikel */
+    margin-bottom: 10px; /* Jarak antara judul dan teks artikel */
+    color: #333; /* Warna huruf */
+}
+
+.blog-content article p {
+    font-size: 16px; /* Ukuran huruf untuk teks artikel */
+    line-height: 1.6; /* Tinggi baris */
+    color: #666; /* Warna huruf */
+}
