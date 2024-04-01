@@ -1,7 +1,7 @@
 /* CSS untuk menu */
 header {
     background-color: rgb(70, 130, 180);
-    padding: 20px;
+    padding: 18px;
     display: flex;
     justify-content: space-between; /* Menyusun elemen di header secara seimbang */
     align-items: center; /* Menyusun elemen secara vertikal tengah */
@@ -49,7 +49,7 @@ main {
     background-image: url('background.jpg'); /* Mengatur gambar latar belakang */
     background-size: cover; /* Menyusuaikan gambar agar mencakup area penuh */
     background-position: center; /* Posisi gambar latar belakang di tengah */
-    height: 100vh; /* Mengatur tinggi main sesuai tinggi layar */
+    height: 90vh; /* Mengatur tinggi main sesuai tinggi layar */
     display: flex;
     justify-content: center; /* Mengatur konten utama di tengah */
     align-items: center; /* Mengatur konten utama di tengah secara vertikal */
