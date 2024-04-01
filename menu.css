@@ -47,7 +47,7 @@ header {
 
 main {
     background-image: url('background.jpg'); 
-    background-size: contain;
+    background-size: cover;
     background-position: center; 
     height: 250vh; /* Mengatur tinggi main sesuai tinggi layar */
     display: flex;
