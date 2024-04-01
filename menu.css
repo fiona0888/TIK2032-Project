@@ -88,3 +88,24 @@ main {
     line-height: 1.6; /* Tinggi baris */
 }
 
+.contact-content h2 {
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff; /* Warna teks menjadi putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+    padding: 20px; /* Padding untuk menambah ruang di sekitar teks */
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
+    border-radius: 10px; /* Mengatur sudut border */
+}
+
+.contact-content p {
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff; /* Warna teks menjadi putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+    padding: 20px; /* Padding untuk menambah ruang di sekitar teks */
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
+    border-radius: 10px; /* Mengatur sudut border */
+}
