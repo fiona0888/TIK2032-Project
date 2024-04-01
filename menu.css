@@ -49,7 +49,7 @@ main {
     background-image: url('background.jpg'); /* Mengatur gambar latar belakang */
     background-size: cover; /* Menyusuaikan gambar agar mencakup area penuh */
     background-position: center; /* Posisi gambar latar belakang di tengah */
-    height: 150vh; /* Mengatur tinggi main sesuai tinggi layar */
+    height: 250vh; /* Mengatur tinggi main sesuai tinggi layar */
     display: flex;
     justify-content: center; /* Mengatur konten utama di tengah */
     align-items: center; /* Mengatur konten utama di tengah secara vertikal */
@@ -100,7 +100,7 @@ main {
 }
 
 .contact-content p {
-    font-size: 58px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff; /* Warna teks menjadi putih */
@@ -110,8 +110,8 @@ main {
     border-radius: 10px; /* Mengatur sudut border */
 }
 
-.contact-content ul {
-    font-size: 58px;
+.contact-content li {
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff; /* Warna teks menjadi putih */
