@@ -47,7 +47,7 @@ header {
 
 main {
     background-image: url('background.jpg'); 
-    background-size: cover;
+    background-size: 100%;
     background-repeat: repeat;
     background-position: center; 
     display: flex;
