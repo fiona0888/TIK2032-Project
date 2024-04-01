@@ -1,17 +1,24 @@
 /* CSS untuk menu */
 header {
     background-color: #333;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end; /* Untuk menyusun menu di sebelah kanan */
 }
 
 .menu-links {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
 .menu-links li {
     display: inline-block;
+    margin-left: 20px; /* Jarak antara menu */
+}
+
+.menu-links li:first-child {
+    margin-left: 0; /* Jarak pertama diatur menjadi 0 */
 }
 
 .menu-links li a {
@@ -20,59 +27,10 @@ header {
     font-size: 18px;
     font-weight: bold;
     padding: 10px 15px;
-    position: relative;
-    overflow: hidden;
+    transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
-.menu-links li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
-    transition: transform 0.3s;
-    z-index: -1;
-}
-
-.menu-links li a:hover::before {
-    transform: scale(3);
-}
-
-/* Efek unik */
-.menu-links li:nth-child(odd) a::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ff6347; /* Warna untuk menu ganjil */
-    z-index: -2;
-    transition: transform 0.3s;
-    transform: scaleX(0);
-    transform-origin: right;
-}
-
-.menu-links li:nth-child(odd) a:hover::after {
-    transform: scaleX(1);
-}
-
-.menu-links li:nth-child(even) a::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #4682b4; /* Warna untuk menu genap */
-    z-index: -2;
-    transition: transform 0.3s;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-
-.menu-links li:nth-child(even) a:hover::after {
-    transform: scaleX(1);
+.menu-links li a:hover {
+    background-color: #555;
 }
