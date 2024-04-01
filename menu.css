@@ -46,9 +46,9 @@ header {
 }
 
 main {
-    background-image: url('background.jpg'); /* Mengatur gambar latar belakang */
-    background-size: cover; /* Menyusuaikan gambar agar mencakup area penuh */
-    background-position: center; /* Posisi gambar latar belakang di tengah */
+    background-image: url('background.jpg'); 
+    background-size: contain;
+    background-position: center; 
     height: 250vh; /* Mengatur tinggi main sesuai tinggi layar */
     display: flex;
     justify-content: center; /* Mengatur konten utama di tengah */
