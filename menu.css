@@ -3,15 +3,17 @@ header {
     background-color: #333;
     padding: 20px;
     display: flex;
-    justify-content: flex-end; /* Untuk menyusun menu di sebelah kanan */
+    justify-content: space-between; /* Menyusun elemen di header secara seimbang */
+    align-items: center; /* Menyusun elemen secara vertikal tengah */
 }
 
 .logo-text {
-    font-family: Arial, sans-serif; /* Atur jenis font */
-    font-size: 24px; /* Atur ukuran font */
-    font-weight: bold; /* Atur ketebalan font */
-    color: #333; /* Atur warna font */
-    text-transform: uppercase; /* Atur teks menjadi huruf besar */
+    font-family: 'Arial', sans-serif; /* Mengatur jenis font */
+    font-size: 24px; /* Mengatur ukuran font */
+    font-weight: bold; /* Mengatur ketebalan font */
+    color: #fff; /* Mengatur warna font */
+    text-transform: uppercase; /* Mengatur teks menjadi huruf besar */
+    margin-right: 20px; /* Jarak antara logo dengan menu */
 }
 
 .menu-links {
