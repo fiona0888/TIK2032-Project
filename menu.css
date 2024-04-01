@@ -74,20 +74,17 @@ main {
 }
 
 .blog-content article {
-    background-color: #f9f9f9; /* Warna latar belakang */
-    border-radius: 10px; /* Sudut border */
-    padding: 20px; /* Padding untuk konten */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    font-family: 'Arial', sans-serif; /* Mengatur jenis font */
+    color: #fff; /* Memberikan warna putih pada teks */
 }
 
 .blog-content article h2 {
-    font-size: 22px; /* Ukuran huruf untuk judul artikel */
+    font-size: 24px; /* Ukuran huruf untuk judul artikel */
     margin-bottom: 10px; /* Jarak antara judul dan teks artikel */
-    color: #333; /* Warna huruf */
 }
 
 .blog-content article p {
-    font-size: 16px; /* Ukuran huruf untuk teks artikel */
+    font-size: 18px; /* Ukuran huruf untuk teks artikel */
     line-height: 1.6; /* Tinggi baris */
-    color: #666; /* Warna huruf */
 }
+
