@@ -47,10 +47,10 @@ header {
 
 main {
     background-image: url('background.jpg');
-    background-size: cover; /* Atur ukuran gambar agar menutupi seluruh area main */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Mencegah gambar diulang */
-    height: 100vh; /* Mengatur tinggi elemen main agar sama dengan tinggi layar */
+    background-repeat: no-repeat;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,15 +91,15 @@ main {
 }
 
 .contact-content {
-    padding: 20px; /* Padding untuk memberikan ruang di sekitar konten */
-    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
-    border-radius: 10px; /* Mengatur sudut border */
-    text-align: center; /* Mengatur teks menjadi rata tengah */
-    max-width: 600px; /* Mengatur lebar maksimum konten */
-    margin: 0 auto; /* Mengatur konten agar berada di tengah halaman */
-    height: 100vh; /* Mengatur tinggi elemen agar sama dengan tinggi layar */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100%; /* Atur tinggi agar mengisi seluruh tinggi elemen */
+    background-size: cover; /* Menutupi seluruh area elemen */
 }
-
 .contact-content p {
     font-size: 15px;
     font-weight: bold;
