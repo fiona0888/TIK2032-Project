@@ -49,7 +49,6 @@ main {
     background-image: url('background.jpg'); 
     background-size: cover;
     background-position: center; 
-    height: 100vh; /* Mengatur tinggi main sesuai tinggi layar */
     display: flex;
     justify-content: center; /* Mengatur konten utama di tengah */
     align-items: center; /* Mengatur konten utama di tengah secara vertikal */
