@@ -7,27 +7,6 @@ header {
     align-items: center; /* Menyusun elemen secara vertikal tengah */
 }
 
-main {
-    background-image: url('background.jpg'); /* Mengatur gambar latar belakang */
-    background-size: cover; /* Menyusuaikan gambar agar mencakup area penuh */
-    background-position: center; /* Posisi gambar latar belakang di tengah */
-    height: 100vh; /* Mengatur tinggi main sesuai tinggi layar */
-    display: flex;
-    justify-content: center; /* Mengatur konten utama di tengah */
-    align-items: center; /* Mengatur konten utama di tengah secara vertikal */
-}
-
-.main-content h1 {
-    font-size: 58px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff; /* Warna teks menjadi putih */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
-    padding: 20px; /* Padding untuk menambah ruang di sekitar teks */
-    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
-    border-radius: 10px; /* Mengatur sudut border */
-}
-
 .logo-text {
     font-family: 'Arial', sans-serif; /* Mengatur jenis font */
     font-size: 24px; /* Mengatur ukuran font */
@@ -64,4 +43,25 @@ main {
 
 .menu-links li a:hover {
     background-color: #555;
+}
+
+main {
+    background-image: url('background.jpg'); /* Mengatur gambar latar belakang */
+    background-size: cover; /* Menyusuaikan gambar agar mencakup area penuh */
+    background-position: center; /* Posisi gambar latar belakang di tengah */
+    height: 100vh; /* Mengatur tinggi main sesuai tinggi layar */
+    display: flex;
+    justify-content: center; /* Mengatur konten utama di tengah */
+    align-items: center; /* Mengatur konten utama di tengah secara vertikal */
+}
+
+.main-content h1 {
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff; /* Warna teks menjadi putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+    padding: 20px; /* Padding untuk menambah ruang di sekitar teks */
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
+    border-radius: 10px; /* Mengatur sudut border */
 }
