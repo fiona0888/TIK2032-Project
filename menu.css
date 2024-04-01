@@ -69,7 +69,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Membuat grid layout responsif */
     gap: 20px; /* Menambahkan jarak antar elemen */
-    padding: 20px;
+    padding: 10px;
 }
 
 .blog-content article {
@@ -78,12 +78,12 @@ main {
 }
 
 .blog-content article h2 {
-    font-size: 24px; /* Ukuran huruf untuk judul artikel */
+    font-size: 18px; /* Ukuran huruf untuk judul artikel */
     margin-bottom: 10px; /* Jarak antara judul dan teks artikel */
 }
 
 .blog-content article p {
-    font-size: 18px; /* Ukuran huruf untuk teks artikel */
+    font-size: 14px; /* Ukuran huruf untuk teks artikel */
     line-height: 1.6; /* Tinggi baris */
 }
 
