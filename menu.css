@@ -1,1 +1,42 @@
+/* CSS untuk menyematkan menu di bagian atas */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* pastikan menu tetap berada di atas konten lain */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Konten utama diberi margin top agar tidak tertutup oleh menu */
+main {
+    margin-top: 60px; /* Sesuaikan dengan tinggi menu */
+}
+
+footer {
+    margin-top: 20px; /* Sesuaikan dengan jarak dari bawah */
+}
 
