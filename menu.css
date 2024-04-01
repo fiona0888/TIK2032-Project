@@ -1,6 +1,6 @@
 /* CSS untuk menu */
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 100, 0.7); /* Warna latar belakang dengan opacity 0.7 */
     padding: 20px;
     display: flex;
     justify-content: space-between; /* Menyusun elemen di header secara seimbang */
