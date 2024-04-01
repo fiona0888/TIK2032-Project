@@ -17,6 +17,17 @@ main {
     align-items: center; /* Mengatur konten utama di tengah secara vertikal */
 }
 
+.main-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff; /* Warna teks menjadi putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+    padding: 20px; /* Padding untuk menambah ruang di sekitar teks */
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
+    border-radius: 10px; /* Mengatur sudut border */
+}
+
 .logo-text {
     font-family: 'Arial', sans-serif; /* Mengatur jenis font */
     font-size: 24px; /* Mengatur ukuran font */
