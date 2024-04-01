@@ -1,6 +1,6 @@
 /* CSS untuk menu */
 header {
-    background-color: #4682B4
+    background-color: #4682B4;
     padding: 20px;
     display: flex;
     justify-content: space-between; /* Menyusun elemen di header secara seimbang */
