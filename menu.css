@@ -7,6 +7,16 @@ header {
     align-items: center; /* Menyusun elemen secara vertikal tengah */
 }
 
+main {
+    background-image: url('background.jpg'); /* Mengatur gambar latar belakang */
+    background-size: cover; /* Menyusuaikan gambar agar mencakup area penuh */
+    background-position: center; /* Posisi gambar latar belakang di tengah */
+    height: 100vh; /* Mengatur tinggi main sesuai tinggi layar */
+    display: flex;
+    justify-content: center; /* Mengatur konten utama di tengah */
+    align-items: center; /* Mengatur konten utama di tengah secara vertikal */
+}
+
 .logo-text {
     font-family: 'Arial', sans-serif; /* Mengatur jenis font */
     font-size: 24px; /* Mengatur ukuran font */
