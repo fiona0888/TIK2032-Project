@@ -50,8 +50,7 @@ main {
     background-size: cover;
     background-position: center; 
     display: flex;
-    justify-content: center; /* Mengatur konten utama di tengah */
-    align-items: center; /* Mengatur konten utama di tengah secara vertikal */
+    justify-content: space-between; /* Mengatur konten utama di tengah */
 }
 
 .main-content h1 {
