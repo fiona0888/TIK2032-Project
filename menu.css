@@ -49,7 +49,7 @@ main {
     background-image: url('background.jpg'); 
     background-size: cover;
     background-position: center; 
-    height: 250vh; /* Mengatur tinggi main sesuai tinggi layar */
+    height: 100vh; /* Mengatur tinggi main sesuai tinggi layar */
     display: flex;
     justify-content: center; /* Mengatur konten utama di tengah */
     align-items: center; /* Mengatur konten utama di tengah secara vertikal */
@@ -89,31 +89,13 @@ main {
 }
 
 .contact-content {
-    padding: 20px; /* Padding untuk memberikan ruang di sekitar konten */
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff; /* Warna teks menjadi putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+    padding: 20px; /* Padding untuk menambah ruang di sekitar teks */
     background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
     border-radius: 10px; /* Mengatur sudut border */
-    text-align: center; /* Mengatur teks menjadi rata tengah */
-    max-width: 600px; /* Mengatur lebar maksimum konten */
-    margin: 0 auto; /* Mengatur konten agar berada di tengah halaman */
 }
 
-.contact-content h2 {
-    font-size: 48px; /* Ukuran font judul yang lebih kecil */
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff; /* Warna teks menjadi putih */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
-    padding: 20px; /* Padding untuk memberikan ruang di sekitar teks */
-    margin-top: 0; /* Menghapus margin atas dari judul */
-}
-
-.contact-content p, .contact-content li {
-    font-size: 24px; /* Ukuran font paragraf dan daftar yang lebih kecil */
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff; /* Warna teks menjadi putih */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
-    padding: 10px; /* Padding untuk memberikan ruang di sekitar teks */
-    margin: 10px 0; /* Mengatur margin atas dan bawah dari paragraf dan daftar */
-    list-style: none; /* Menghilangkan bullet pada daftar */
-}
