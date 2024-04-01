@@ -46,12 +46,16 @@ header {
 }
 
 main {
-    background-image: url('background.jpg'); 
-    background-size: cover;
-    background-position: center; 
+    background-image: url('background.jpg');
+    background-size: auto; /* Mengatur agar ukuran gambar tidak diubah */
+    background-position: center;
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    height: 100vh;
     display: flex;
-    justify-content: space-between; /* Mengatur konten utama di tengah */
+    justify-content: center;
+    align-items: center;
 }
+
 
 .main-content h1 {
     font-size: 58px;
@@ -86,15 +90,13 @@ main {
     line-height: 1.6; /* Tinggi baris */
 }
 
-.contact-content h1 {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff; /* Warna teks menjadi putih */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
-    padding: 10px; /* Padding untuk menambah ruang di sekitar teks */
+.contact-content {
+    padding: 20px; /* Padding untuk memberikan ruang di sekitar konten */
     background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
-    border-radius: 5px; /* Mengatur sudut border */
+    border-radius: 10px; /* Mengatur sudut border */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+    max-width: 600px; /* Mengatur lebar maksimum konten */
+    margin: 0 auto; /* Mengatur konten agar berada di tengah halaman */
 }
 
 .contact-content p {
@@ -103,7 +105,5 @@ main {
     text-transform: uppercase;
     color: #fff; /* Warna teks menjadi putih */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
-    padding: 10px; /* Padding untuk menambah ruang di sekitar teks */
-    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
     border-radius: 5px; /* Mengatur sudut border */
 }
