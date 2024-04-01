@@ -6,13 +6,13 @@ header {
     justify-content: flex-end; /* Untuk menyusun menu di sebelah kanan */
 }
 
-.logo {
-            font-family: Arial, sans-serif; /* Atur font tulisan FLOG */
-            font-size: 24px; /* Atur ukuran teks tulisan FLOG */
-            font-weight: bold; /* Atur ketebalan teks tulisan FLOG */
-            color: #333; /* Atur warna teks tulisan FLOG */
-            padding-left: 10px; /* Jarak antara tulisan dengan batas kiri header */
-        }
+.logo-text {
+    font-family: Arial, sans-serif; /* Atur jenis font */
+    font-size: 24px; /* Atur ukuran font */
+    font-weight: bold; /* Atur ketebalan font */
+    color: #333; /* Atur warna font */
+    text-transform: uppercase; /* Atur teks menjadi huruf besar */
+}
 
 .menu-links {
     list-style-type: none;
