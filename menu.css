@@ -1,42 +1,53 @@
-/* CSS untuk menyematkan menu di bagian atas */
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000; /* pastikan menu tetap berada di atas konten lain */
+/* CSS untuk menu */
+header {
+    position: relative; /* Atur posisi relatif untuk tombol hamburger */
 }
 
-nav ul {
+#menu-toggle {
+    display: none; /* Sembunyikan checkbox */
+}
+
+#menu-icon {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Sembunyikan menu di samping kiri */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease;
+}
+
+#menu-toggle:checked ~ #menu {
+    left: 0; /* Tampilkan menu saat checkbox dicek */
+}
+
+.menu-links {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.menu-links li {
+    padding: 10px;
 }
 
-nav ul li a {
+.menu-links li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
+    font-size: 18px;
 }
 
-nav ul li a:hover {
+.menu-links li a:hover {
     text-decoration: underline;
 }
-
-/* Konten utama diberi margin top agar tidak tertutup oleh menu */
-main {
-    margin-top: 60px; /* Sesuaikan dengan tinggi menu */
-}
-
-footer {
-    margin-top: 20px; /* Sesuaikan dengan jarak dari bawah */
-}
-
