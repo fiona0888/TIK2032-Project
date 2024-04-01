@@ -90,21 +90,3 @@ main {
     line-height: 1.6; /* Tinggi baris */
 }
 
-.contact-content {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    height: 100%; /* Atur tinggi agar mengisi seluruh tinggi elemen */
-    background-size: cover; /* Menutupi seluruh area elemen */
-}
-.contact-content p {
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff; /* Warna teks menjadi putih */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
-    border-radius: 5px; /* Mengatur sudut border */
-}
