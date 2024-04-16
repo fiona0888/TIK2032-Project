@@ -1,19 +1,18 @@
-/* CSS untuk menu */
+
 header {
     background-color: rgb(70, 130, 180);
     padding: 18px;
     display: flex;
-    justify-content: space-between; /* Menyusun elemen di header secara seimbang */
-    align-items: center; /* Menyusun elemen secara vertikal tengah */
-}
+    justify-content: space-between; 
+    align-items: center; 
 
 .logo-text {
-    font-family: 'Arial', sans-serif; /* Mengatur jenis font */
-    font-size: 24px; /* Mengatur ukuran font */
-    font-weight: bold; /* Mengatur ketebalan font */
-    color: #fff; /* Mengatur warna font */
-    text-transform: uppercase; /* Mengatur teks menjadi huruf besar */
-    margin-right: 20px; /* Jarak antara logo dengan menu */
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px;
+    font-weight: bold; 
+    color: #fff; 
+    text-transform: uppercase; 
+    margin-right: 20px; 
 }
 
 .menu-links {
@@ -24,11 +23,11 @@ header {
 
 .menu-links li {
     display: inline-block;
-    margin-left: 20px; /* Jarak antara menu */
+    margin-left: 20px; 
 }
 
 .menu-links li:first-child {
-    margin-left: 0; /* Jarak pertama diatur menjadi 0 */
+    margin-left: 0;
 }
 
 .menu-links li a {
@@ -46,7 +45,7 @@ header {
 }
 
 main {
-    background-image: url('background.jpg');
+    background-image: url('back.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,32 +60,32 @@ main {
     font-size: 58px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fff; /* Warna teks menjadi putih */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
-    padding: 20px; /* Padding untuk menambah ruang di sekitar teks */
-    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan opacity 0.5 */
-    border-radius: 10px; /* Mengatur sudut border */
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
 }
 
 .blog-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Membuat grid layout responsif */
-    gap: 20px; /* Menambahkan jarak antar elemen */
-    padding: 0; /* Menghapus padding untuk memastikan konten memenuhi lebar elemen */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 0; 
 }
 
 .blog-content article {
-    font-family: 'Arial', sans-serif; /* Mengatur jenis font */
-    color: #fff; /* Memberikan warna putih pada teks */
+    font-family: 'Arial', sans-serif; 
+    color: #fff; 
 }
 
 .blog-content article h2 {
-    font-size: 18px; /* Ukuran huruf untuk judul artikel */
-    margin-bottom: 10px; /* Jarak antara judul dan teks artikel */
+    font-size: 18px; 
+    margin-bottom: 10px; 
 }
 
 .blog-content article p {
-    font-size: 14px; /* Ukuran huruf untuk teks artikel */
-    line-height: 1.6; /* Tinggi baris */
+    font-size: 14px; 
+    line-height: 1.6; 
 }
 
