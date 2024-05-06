@@ -10,10 +10,10 @@
     <header>
         <nav>
             <ul>
-                <li class="link"><a href="index.html">Home</a></li>
-                <li class="link"><a href="galeri.html">Gallery</a></li>
-                <li class="link"><a href="blog.html">Blog</a></li>
-                <li class="link"><a href="contact.html">Contact</a></li>
+                <li class="link"><a href="index.php">Home</a></li>
+                <li class="link"><a href="galeri.php">Gallery</a></li>
+                <li class="link"><a href="blog.php">Blog</a></li>
+                <li class="link"><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
